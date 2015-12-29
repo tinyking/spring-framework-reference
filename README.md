@@ -1,3 +1,1 @@
-# Introduction
-
 #spring-framework-reference
