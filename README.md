@@ -1,1 +1,1177 @@
-#spring-framework-reference
+- [Spring框架概述](Part I. Overview of Spring Framework/README.md)
+  - 1. Getting Started with Spring
+  - 2. Introduction to the Spring Framework
+    - 2.1. Dependency Injection and Inversion of Control
+    - 2.2. Modules
+      - 2.2.1. Core Container
+      - 2.2.2. AOP and Instrumentation
+      - 2.2.3. Messaging
+      - 2.2.4. Data Access/Integration
+      - 2.2.5. Web
+      - 2.2.6. Test
+    - 2.3. Usage scenarios
+      - 2.3.1. Dependency Management and Naming Conventions
+        - Spring Dependencies and Depending on Spring
+        - Maven Dependency Management
+        - Maven "Bill Of Materials" Dependency
+        - Gradle Dependency Management
+        - Ivy Dependency Management
+        - Distribution Zip Files
+      - 2.3.2. Logging
+        - Not Using Commons Logging
+        - Using SLF4J
+        - Using Log4J
+- II. What’s New in Spring Framework 4.x
+  - 3. New Features and Enhancements in Spring Framework 4.0
+    - 3.1. Improved Getting Started Experience
+    - 3.2. Removed Deprecated Packages and Methods
+    - 3.3. Java 8 (as well as 6 and 7)
+    - 3.4. Java EE 6 and 7
+    - 3.5. Groovy Bean Definition DSL
+    - 3.6. Core Container Improvements
+    - 3.7. General Web Improvements
+    - 3.8. WebSocket, SockJS, and STOMP Messaging
+    - 3.9. Testing Improvements
+  - 4. New Features and Enhancements in Spring Framework 4.1
+    - 4.1. JMS Improvements
+    - 4.2. Caching Improvements
+    - 4.3. Web Improvements
+    - 4.4. WebSocket STOMP Messaging Improvements
+    - 4.5. Testing Improvements
+- III. Core Technologies
+  - 5. The IoC container
+    - 5.1. Introduction to the Spring IoC container and beans
+    - 5.2. Container overview
+      - 5.2.1. Configuration metadata
+      - 5.2.2. Instantiating a container
+        - Composing XML-based configuration metadata
+      - 5.2.3. Using the container
+    - 5.3. Bean overview
+      - 5.3.1. Naming beans
+        - Aliasing a bean outside the bean definition
+      - 5.3.2. Instantiating beans
+        - Instantiation with a constructor
+        - Instantiation with a static factory method
+        - Instantiation using an instance factory method
+    - 5.4. Dependencies
+      - 5.4.1. Dependency injection
+        - Constructor-based dependency injection
+        - Setter-based dependency injection
+        - Dependency resolution process
+        - Examples of dependency injection
+      - 5.4.2. Dependencies and configuration in detail
+        - Straight values (primitives, Strings, and so on)
+        - References to other beans (collaborators)
+        - Inner beans
+        - Collections
+        - Null and empty string values
+        - XML shortcut with the p-namespace
+        - XML shortcut with the c-namespace
+        - Compound property names
+      - 5.4.3. Using depends-on
+      - 5.4.4. Lazy-initialized beans
+      - 5.4.5. Autowiring collaborators
+        - Limitations and disadvantages of autowiring
+        - Excluding a bean from autowiring
+      - 5.4.6. Method injection
+        - Lookup method injection
+        - Arbitrary method replacement
+    - 5.5. Bean scopes
+      - 5.5.1. The singleton scope
+      - 5.5.2. The prototype scope
+      - 5.5.3. Singleton beans with prototype-bean dependencies
+      - 5.5.4. Request, session, and global session scopes
+        - Initial web configuration
+        - Request scope
+        - Session scope
+        - Global session scope
+        - Application scope
+        - Scoped beans as dependencies
+      - 5.5.5. Custom scopes
+        - Creating a custom scope
+        - Using a custom scope
+    - 5.6. Customizing the nature of a bean
+      - 5.6.1. Lifecycle callbacks
+        - Initialization callbacks
+        - Destruction callbacks
+        - Default initialization and destroy methods
+        - Combining lifecycle mechanisms
+        - Startup and shutdown callbacks
+        - Shutting down the Spring IoC container gracefully in non-web applications
+      - 5.6.2. ApplicationContextAware and BeanNameAware
+      - 5.6.3. Other Aware interfaces
+    - 5.7. Bean definition inheritance
+    - 5.8. Container Extension Points
+      - 5.8.1. Customizing beans using a BeanPostProcessor
+        - Example: Hello World, BeanPostProcessor-style
+        - Example: The RequiredAnnotationBeanPostProcessor
+      - 5.8.2. Customizing configuration metadata with a BeanFactoryPostProcessor
+        - Example: the Class name substitution PropertyPlaceholderConfigurer
+        - Example: the PropertyOverrideConfigurer
+      - 5.8.3. Customizing instantiation logic with a FactoryBean
+    - 5.9. Annotation-based container configuration
+      - 5.9.1. `@Required`
+      - 5.9.2. `@Autowired`
+      - 5.9.3. Fine-tuning annotation-based autowiring with qualifiers
+      - 5.9.4. Using generics as autowiring qualifiers
+      - 5.9.5. CustomAutowireConfigurer
+      - 5.9.6. @Resource
+      - 5.9.7. @PostConstruct and @PreDestroy
+    - 5.10. Classpath scanning and managed components
+      - 5.10.1. @Component and further stereotype annotations
+      - 5.10.2. Meta-annotations
+      - 5.10.3. Automatically detecting classes and registering bean definitions
+      - 5.10.4. Using filters to customize scanning
+      - 5.10.5. Defining bean metadata within components
+      - 5.10.6. Naming autodetected components
+      - 5.10.7. Providing a scope for autodetected components
+      - 5.10.8. Providing qualifier metadata with annotations
+    - 5.11. Using JSR 330 Standard Annotations
+      - 5.11.1. Dependency Injection with @Inject and @Named
+      - 5.11.2. @Named: a standard equivalent to the @Component annotation
+      - 5.11.3. Limitations of the standard approach
+    - 5.12. Java-based container configuration
+      - 5.12.1. Basic concepts: @Bean and @Configuration
+      - 5.12.2. Instantiating the Spring container using AnnotationConfigApplicationContext
+        - Simple construction
+        - Building the container programmatically using register(Class<?>…)
+        - Enabling component scanning with scan(String…)
+        - Support for web applications with AnnotationConfigWebApplicationContext
+      - 5.12.3. Using the @Bean annotation
+        - Declaring a bean
+        - Receiving lifecycle callbacks
+        - Specifying bean scope
+        - Customizing bean naming
+        - Bean aliasing
+        - Bean description
+      - 5.12.4. Using the @Configuration annotation
+        - Injecting inter-bean dependencies
+        - Lookup method injection
+        - Further information about how Java-based configuration works internally
+      - 5.12.5. Composing Java-based configurations
+        - Using the @Import annotation
+        - Conditionally including @Configuration classes or @Beans
+        - Combining Java and XML configuration
+    - 5.13. Environment abstraction
+      - 5.13.1. Bean definition profiles
+        - @Profile
+      - 5.13.2. XML Bean definition profiles
+        - Enabling a profile
+        - Default profile
+      - 5.13.3. PropertySource Abstraction
+      - 5.13.4. @PropertySource
+      - 5.13.5. Placeholder resolution in statements
+    - 5.14. Registering a LoadTimeWeaver
+    - 5.15. Additional Capabilities of the ApplicationContext
+      - 5.15.1. Internationalization using MessageSource
+      - 5.15.2. Standard and Custom Events
+      - 5.15.3. Convenient access to low-level resources
+      - 5.15.4. Convenient ApplicationContext instantiation for web applications
+      - 5.15.5. Deploying a Spring ApplicationContext as a Java EE RAR file
+    - 5.16. The BeanFactory
+      - 5.16.1. BeanFactory or ApplicationContext?
+      - 5.16.2. Glue code and the evil singleton
+  - 6. Resources
+    - 6.1. Introduction
+    - 6.2. The Resource interface
+    - 6.3. Built-in Resource implementations
+      - 6.3.1. UrlResource
+      - 6.3.2. ClassPathResource
+      - 6.3.3. FileSystemResource
+      - 6.3.4. ServletContextResource
+      - 6.3.5. InputStreamResource
+      - 6.3.6. ByteArrayResource
+    - 6.4. The ResourceLoader
+    - 6.5. The ResourceLoaderAware interface
+    - 6.6. Resources as dependencies
+    - 6.7. Application contexts and Resource paths
+      - 6.7.1. Constructing application contexts
+        - Constructing ClassPathXmlApplicationContext instances - shortcuts
+      - 6.7.2. Wildcards in application context constructor resource paths
+        - Ant-style Patterns
+        - The Classpath*: portability classpath*: prefix
+        - Other notes relating to wildcards
+      - 6.7.3. FileSystemResource caveats
+  - 7. Validation, Data Binding, and Type Conversion
+    - 7.1. Introduction
+    - 7.2. Validation using Spring’s Validator interface
+    - 7.3. Resolving codes to error messages
+    - 7.4. Bean manipulation and the BeanWrapper
+      - 7.4.1. Setting and getting basic and nested properties
+      - 7.4.2. Built-in PropertyEditor implementations
+        - Registering additional custom PropertyEditors
+    - 7.5. Spring Type Conversion
+      - 7.5.1. Converter SPI
+      - 7.5.2. ConverterFactory
+      - 7.5.3. GenericConverter
+        - ConditionalGenericConverter
+      - 7.5.4. ConversionService API
+      - 7.5.5. Configuring a ConversionService
+      - 7.5.6. Using a ConversionService programmatically
+    - 7.6. Spring Field Formatting
+      - 7.6.1. Formatter SPI
+      - 7.6.2. Annotation-driven Formatting
+        - Format Annotation API
+      - 7.6.3. FormatterRegistry SPI
+      - 7.6.4. FormatterRegistrar SPI
+      - 7.6.5. Configuring Formatting in Spring MVC
+    - 7.7. Configuring a global date & time format
+    - 7.8. Spring Validation
+      - 7.8.1. Overview of the JSR-303 Bean Validation API
+      - 7.8.2. Configuring a Bean Validation Provider
+        - Injecting a Validator
+        - Configuring Custom Constraints
+        - Spring-driven Method Validation
+        - Additional Configuration Options
+      - 7.8.3. Configuring a DataBinder
+      - 7.8.4. Spring MVC 3 Validation
+        - Triggering @Controller Input Validation
+        - Configuring a Validator for use by Spring MVC
+        - Configuring a JSR-303/JSR-349 Validator for use by Spring MVC
+  - 8. Spring Expression Language (SpEL)
+    - 8.1. Introduction
+    - 8.2. Feature Overview
+    - 8.3. Expression Evaluation using Spring’s Expression Interface
+      - 8.3.1. The EvaluationContext interface
+        - Type Conversion
+      - 8.3.2. Parser configuration
+      - 8.3.3. SpEL compilation
+        - Compiler configuration
+        - Compiler limitations
+    - 8.4. Expression support for defining bean definitions
+      - 8.4.1. XML based configuration
+      - 8.4.2. Annotation-based configuration
+    - 8.5. Language Reference
+      - 8.5.1. Literal expressions
+      - 8.5.2. Properties, Arrays, Lists, Maps, Indexers
+      - 8.5.3. Inline lists
+      - 8.5.4. Inline Maps
+      - 8.5.5. Array construction
+      - 8.5.6. Methods
+      - 8.5.7. Operators
+        - Relational operators
+        - Logical operators
+        - Mathematical operators
+      - 8.5.8. Assignment
+      - 8.5.9. Types
+      - 8.5.10. Constructors
+      - 8.5.11. Variables
+        - The #this and #root variables
+      - 8.5.12. Functions
+      - 8.5.13. Bean references
+      - 8.5.14. Ternary Operator (If-Then-Else)
+      - 8.5.15. The Elvis Operator
+      - 8.5.16. Safe Navigation operator
+      - 8.5.17. Collection Selection
+      - 8.5.18. Collection Projection
+      - 8.5.19. Expression templating
+    - 8.6. Classes used in the examples
+  - 9. Aspect Oriented Programming with Spring
+    - 9.1. Introduction
+      - 9.1.1. AOP concepts
+      - 9.1.2. Spring AOP capabilities and goals
+      - 9.1.3. AOP Proxies
+    - 9.2. `@AspectJ` support
+      - 9.2.1. Enabling `@AspectJ` Support
+        - Enabling `@AspectJ` Support with Java configuration
+        - Enabling `@AspectJ` Support with XML configuration
+      - 9.2.2. Declaring an aspect
+      - 9.2.3. Declaring a pointcut
+        - Supported Pointcut Designators
+        - Combining pointcut expressions
+        - Sharing common pointcut definitions
+        - Examples
+        - Writing good pointcuts
+      - 9.2.4. Declaring advice
+        - Before advice
+        - After returning advice
+        - After throwing advice
+        - After (finally) advice
+        - Around advice
+        - Advice parameters
+        - Advice ordering
+      - 9.2.5. Introductions
+      - 9.2.6. Aspect instantiation models
+      - 9.2.7. Example
+    - 9.3. Schema-based AOP support
+      - 9.3.1. Declaring an aspect
+      - 9.3.2. Declaring a pointcut
+      - 9.3.3. Declaring advice
+        - Before advice
+        - After returning advice
+        - After throwing advice
+        - After (finally) advice
+        - Around advice
+        - Advice parameters
+        - Advice ordering
+      - 9.3.4. Introductions
+      - 9.3.5. Aspect instantiation models
+      - 9.3.6. Advisors
+      - 9.3.7. Example
+- 9.4. Choosing which AOP declaration style to use
+- 9.4.1. Spring AOP or full AspectJ?
+- 9.4.2. `@AspectJ` or XML for Spring AOP?
+- 9.5. Mixing aspect types
+- 9.6. Proxying mechanisms
+- 9.6.1. Understanding AOP proxies
+- 9.7. Programmatic creation of `@AspectJ` Proxies
+- 9.8. Using AspectJ with Spring applications
+- 9.8.1. Using AspectJ to dependency inject domain objects with Spring
+- Unit testing `@Configurable` objects
+- Working with multiple application contexts
+- 9.8.2. Other Spring aspects for AspectJ
+- 9.8.3. Configuring AspectJ aspects using Spring IoC
+- 9.8.4. Load-time weaving with AspectJ in the Spring Framework
+- A first example
+- Aspects
+- META-INF/aop.xml
+- Required libraries (JARS)
+- Spring configuration
+- Environment-specific configuration
+- 9.9. Further Resources
+- 10. Spring AOP APIs
+- 10.1. Introduction
+- 10.2. Pointcut API in Spring
+- 10.2.1. Concepts
+- 10.2.2. Operations on pointcuts
+- 10.2.3. AspectJ expression pointcuts
+- 10.2.4. Convenience pointcut implementations
+- Static pointcuts
+- Dynamic pointcuts
+- 10.2.5. Pointcut superclasses
+- 10.2.6. Custom pointcuts
+- 10.3. Advice API in Spring
+- 10.3.1. Advice lifecycles
+- 10.3.2. Advice types in Spring
+- Interception around advice
+- Before advice
+- Throws advice
+- After Returning advice
+- Introduction advice
+- 10.4. Advisor API in Spring
+- 10.5. Using the ProxyFactoryBean to create AOP proxies
+- 10.5.1. Basics
+- 10.5.2. JavaBean properties
+- 10.5.3. JDK- and CGLIB-based proxies
+- 10.5.4. Proxying interfaces
+- 10.5.5. Proxying classes
+- 10.5.6. Using global advisors
+- 10.6. Concise proxy definitions
+- 10.7. Creating AOP proxies programmatically with the ProxyFactory
+- 10.8. Manipulating advised objects
+- 10.9. Using the "auto-proxy" facility
+- 10.9.1. Autoproxy bean definitions
+- BeanNameAutoProxyCreator
+- DefaultAdvisorAutoProxyCreator
+- AbstractAdvisorAutoProxyCreator
+- 10.9.2. Using metadata-driven auto-proxying
+- 10.10. Using TargetSources
+- 10.10.1. Hot swappable target sources
+- 10.10.2. Pooling target sources
+- 10.10.3. Prototype target sources
+- 10.10.4. ThreadLocal target sources
+- 10.11. Defining new Advice types
+- 10.12. Further resources
+- 11. Testing
+- 11.1. Introduction to Spring Testing
+- 11.2. Unit Testing
+- 11.2.1. Mock Objects
+- Environment
+- JNDI
+- Servlet API
+- Portlet API
+- 11.2.2. Unit Testing support Classes
+- General utilities
+- Spring MVC
+- 11.3. Integration Testing
+- 11.3.1. Overview
+- 11.3.2. Goals of Integration Testing
+- Context management and caching
+- Dependency Injection of test fixtures
+- Transaction management
+- Support classes for integration testing
+- 11.3.3. JDBC Testing Support
+- 11.3.4. Annotations
+- Spring Testing Annotations
+- Standard Annotation Support
+- Spring JUnit Testing Annotations
+- Meta-Annotation Support for Testing
+- 11.3.5. Spring TestContext Framework
+- Key abstractions
+- TestExecutionListener configuration
+- Context management
+- Dependency injection of test fixtures
+- Testing request and session scoped beans
+- Transaction management
+- Executing SQL scripts
+- TestContext Framework support classes
+- 11.3.6. Spring MVC Test Framework
+- Server-Side Tests
+- Client-Side REST Tests
+- 11.3.7. PetClinic Example
+- 11.4. Further Resources
+- IV. Data Access
+- 12. Transaction Management
+- 12.1. Introduction to Spring Framework transaction management
+- 12.2. Advantages of the Spring Framework’s transaction support model
+- 12.2.1. Global transactions
+- 12.2.2. Local transactions
+- 12.2.3. Spring Framework’s consistent programming model
+- 12.3. Understanding the Spring Framework transaction abstraction
+- 12.4. Synchronizing resources with transactions
+- 12.4.1. High-level synchronization approach
+- 12.4.2. Low-level synchronization approach
+- 12.4.3. TransactionAwareDataSourceProxy
+- 12.5. Declarative transaction management
+- 12.5.1. Understanding the Spring Framework’s declarative transaction implementation
+- 12.5.2. Example of declarative transaction implementation
+- 12.5.3. Rolling back a declarative transaction
+- 12.5.4. Configuring different transactional semantics for different beans
+- 12.5.5. <tx:advice/> settings
+- 12.5.6. Using `@Transactional`
+- `@Transactional` settings
+- Multiple Transaction Managers with `@Transactional`
+- Custom shortcut annotations
+- 12.5.7. Transaction propagation
+- Required
+- RequiresNew
+- Nested
+- 12.5.8. Advising transactional operations
+- 12.5.9. Using `@Transactional` with AspectJ
+- 12.6. Programmatic transaction management
+- 12.6.1. Using the TransactionTemplate
+- Specifying transaction settings
+- 12.6.2. Using the PlatformTransactionManager
+- 12.7. Choosing between programmatic and declarative transaction management
+- 12.8. Application server-specific integration
+- 12.8.1. IBM WebSphere
+- 12.8.2. Oracle WebLogic Server
+- 12.9. Solutions to common problems
+- 12.9.1. Use of the wrong transaction manager for a specific DataSource
+- 12.10. Further Resources
+- 13. DAO support
+- 13.1. Introduction
+- 13.2. Consistent exception hierarchy
+- 13.3. Annotations used for configuring DAO or Repository classes
+- 14. Data access with JDBC
+- 14.1. Introduction to Spring Framework JDBC
+- 14.1.1. Choosing an approach for JDBC database access
+- 14.1.2. Package hierarchy
+- 14.2. Using the JDBC core classes to control basic JDBC processing and error handling
+- 14.2.1. JdbcTemplate
+- Examples of JdbcTemplate class usage
+- JdbcTemplate best practices
+- 14.2.2. NamedParameterJdbcTemplate
+- 14.2.3. SQLExceptionTranslator
+- 14.2.4. Executing statements
+- 14.2.5. Running queries
+- 14.2.6. Updating the database
+- 14.2.7. Retrieving auto-generated keys
+- 14.3. Controlling database connections
+- 14.3.1. DataSource
+- 14.3.2. DataSourceUtils
+- 14.3.3. SmartDataSource
+- 14.3.4. AbstractDataSource
+- 14.3.5. SingleConnectionDataSource
+- 14.3.6. DriverManagerDataSource
+- 14.3.7. TransactionAwareDataSourceProxy
+- 14.3.8. DataSourceTransactionManager
+- 14.3.9. NativeJdbcExtractor
+- 14.4. JDBC batch operations
+- 14.4.1. Basic batch operations with the JdbcTemplate
+- 14.4.2. Batch operations with a List of objects
+- 14.4.3. Batch operations with multiple batches
+- 14.5. Simplifying JDBC operations with the SimpleJdbc classes
+- 14.5.1. Inserting data using SimpleJdbcInsert
+- 14.5.2. Retrieving auto-generated keys using SimpleJdbcInsert
+- 14.5.3. Specifying columns for a SimpleJdbcInsert
+- 14.5.4. Using SqlParameterSource to provide parameter values
+- 14.5.5. Calling a stored procedure with SimpleJdbcCall
+- 14.5.6. Explicitly declaring parameters to use for a SimpleJdbcCall
+- 14.5.7. How to define SqlParameters
+- 14.5.8. Calling a stored function using SimpleJdbcCall
+- 14.5.9. Returning ResultSet/REF Cursor from a SimpleJdbcCall
+- 14.6. Modeling JDBC operations as Java objects
+- 14.6.1. SqlQuery
+- 14.6.2. MappingSqlQuery
+- 14.6.3. SqlUpdate
+- 14.6.4. StoredProcedure
+- 14.7. Common problems with parameter and data value handling
+- 14.7.1. Providing SQL type information for parameters
+- 14.7.2. Handling BLOB and CLOB objects
+- 14.7.3. Passing in lists of values for IN clause
+- 14.7.4. Handling complex types for stored procedure calls
+- 14.8. Embedded database support
+- 14.8.1. Why use an embedded database?
+- 14.8.2. Creating an embedded database instance using Spring XML
+- 14.8.3. Creating an embedded database instance programmatically
+- 14.8.4. Extending the embedded database support
+- 14.8.5. Using HSQL
+- 14.8.6. Using H2
+- 14.8.7. Using Derby
+- 14.8.8. Testing data access logic with an embedded database
+- 14.9. Initializing a DataSource
+- 14.9.1. Initializing a database instance using Spring XML
+- Initialization of Other Components that Depend on the Database
+- 15. Object Relational Mapping (ORM) Data Access
+- 15.1. Introduction to ORM with Spring
+- 15.2. General ORM integration considerations
+- 15.2.1. Resource and transaction management
+- 15.2.2. Exception translation
+- 15.3. Hibernate
+- 15.3.1. SessionFactory setup in a Spring container
+- 15.3.2. Implementing DAOs based on plain Hibernate 3 API
+- 15.3.3. Declarative transaction demarcation
+- 15.3.4. Programmatic transaction demarcation
+- 15.3.5. Transaction management strategies
+- 15.3.6. Comparing container-managed and locally defined resources
+- 15.3.7. Spurious application server warnings with Hibernate
+- 15.4. JDO
+- 15.4.1. PersistenceManagerFactory setup
+- 15.4.2. Implementing DAOs based on the plain JDO API
+- 15.4.3. Transaction management
+- 15.4.4. JdoDialect
+- 15.5. JPA
+- 15.5.1. Three options for JPA setup in a Spring environment
+- LocalEntityManagerFactoryBean
+- Obtaining an EntityManagerFactory from JNDI
+- LocalContainerEntityManagerFactoryBean
+- Dealing with multiple persistence units
+- 15.5.2. Implementing DAOs based on plain JPA
+- 15.5.3. Transaction Management
+- 15.5.4. JpaDialect
+- 16. Marshalling XML using O/X Mappers
+- 16.1. Introduction
+- 16.1.1. Ease of configuration
+- 16.1.2. Consistent Interfaces
+- 16.1.3. Consistent Exception Hierarchy
+- 16.2. Marshaller and Unmarshaller
+- 16.2.1. Marshaller
+- 16.2.2. Unmarshaller
+- 16.2.3. XmlMappingException
+- 16.3. Using Marshaller and Unmarshaller
+- 16.4. XML Schema-based Configuration
+- 16.5. JAXB
+- 16.5.1. Jaxb2Marshaller
+- XML Schema-based Configuration
+- 16.6. Castor
+- 16.6.1. CastorMarshaller
+- 16.6.2. Mapping
+- XML Schema-based Configuration
+- 16.7. XMLBeans
+- 16.7.1. XmlBeansMarshaller
+- XML Schema-based Configuration
+- 16.8. JiBX
+- 16.8.1. JibxMarshaller
+- XML Schema-based Configuration
+- 16.9. XStream
+- 16.9.1. XStreamMarshaller
+- V. The Web
+  - [Web MVC框架](./Part V. The Web/17. Web MVC framework.md)
+    - [Spring Web MVC框架介绍](./Part V. The Web/17.1. Introduction to Spring Web MVC framework)
+      - 17.1.1. Features of Spring Web MVC
+      - 17.1.2. Pluggability of other MVC implementations
+    - 17.2. The DispatcherServlet
+      - 17.2.1. Special Bean Types In the WebApplicationContext
+      - 17.2.2. Default DispatcherServlet Configuration
+      - 17.2.3. DispatcherServlet Processing Sequence
+    - 17.3. Implementing Controllers
+      - 17.3.1. Defining a controller with `@Controller`
+      - 17.3.2. Mapping Requests With `@RequestMapping`
+        - `@Controller`'s and AOP Proxying
+        - New Support Classes for `@RequestMapping` methods in Spring MVC 3.1
+        - URI Template Patterns
+        - URI Template Patterns with Regular Expressions
+        - Path Patterns
+        - Path Pattern Comparison
+        - Path Patterns with Placeholders
+      - 17.3.3. Suffix Pattern Matching
+      - 17.3.4. Suffix Pattern Matching and RFD
+        - Matrix Variables
+        - Consumable Media Types
+        - Producible Media Types
+        - Request Parameters and Header Values
+      - 17.3.5. Defining `@RequestMapping` handler methods
+        - Supported method argument types
+        - Supported method return types
+        - Binding request parameters to method parameters with `@RequestParam`
+        - Mapping the request body with the `@RequestBody` annotation
+        - Mapping the response body with the `@ResponseBody` annotation
+        - Creating REST Controllers with the `@RestController` annotation
+        - Using HttpEntity
+        - Using `@ModelAttribute` on a method
+        - Using `@ModelAttribute` on a method argument
+        - Using `@SessionAttributes` to store model attributes in the HTTP session between requests
+        - Specifying redirect and flash attributes
+        - Working with "application/x-www-form-urlencoded" data
+        - Mapping cookie values with the `@CookieValue` annotation
+        - Mapping request header attributes with the `@RequestHeader` annotation
+        - Method Parameters And Type Conversion
+        - Customizing WebDataBinder initialization
+        - Support for the Last-Modified Response Header To Facilitate Content Caching
+        - Advising controllers with the `@ControllerAdvice` annotation
+        - Jackson Serialization View Support
+        - Jackson JSONP Support
+- 17.3.6. Asynchronous Request Processing
+- Exception Handling for Async Requests
+- Intercepting Async Requests
+- Configuration for Async Request Processing
+- 17.3.7. Testing Controllers
+- 17.4. Handler mappings
+- 17.4.1. Intercepting requests with a HandlerInterceptor
+- 17.5. Resolving views
+- 17.5.1. Resolving views with the ViewResolver interface
+- 17.5.2. Chaining ViewResolvers
+- 17.5.3. Redirecting to views
+- RedirectView
+- The redirect: prefix
+- The forward: prefix
+- 17.5.4. ContentNegotiatingViewResolver
+- 17.6. Using flash attributes
+- 17.7. Building URIs
+- 17.7.1. Building URIs to Controllers and methods
+- 17.7.2. Building URIs to Controllers and methods from views
+- 17.8. Using locales
+- 17.8.1. Obtaining Time Zone Information
+- 17.8.2. AcceptHeaderLocaleResolver
+- 17.8.3. CookieLocaleResolver
+- 17.8.4. SessionLocaleResolver
+- 17.8.5. LocaleChangeInterceptor
+- 17.9. Using themes
+- 17.9.1. Overview of themes
+- 17.9.2. Defining themes
+- 17.9.3. Theme resolvers
+- 17.10. Spring’s multipart (file upload) support
+- 17.10.1. Introduction
+- 17.10.2. Using a MultipartResolver with Commons FileUpload
+- 17.10.3. Using a MultipartResolver with Servlet 3.0
+- 17.10.4. Handling a file upload in a form
+- 17.10.5. Handling a file upload request from programmatic clients
+- 17.11. Handling exceptions
+- 17.11.1. HandlerExceptionResolver
+- 17.11.2. `@ExceptionHandler`
+- 17.11.3. Handling Standard Spring MVC Exceptions
+    - 17.11.4. Annotating Business Exceptions With `@ResponseStatus`
+    - 17.11.5. Customizing the Default Servlet Container Error Page
+    - [Web安全](Part V. The Web/17.12. Web Security.md)
+- 17.13. Convention over configuration support
+- 17.13.1. The Controller ControllerClassNameHandlerMapping
+- 17.13.2. The Model ModelMap (ModelAndView)
+- 17.13.3. The View - RequestToViewNameTranslator
+- 17.14. ETag support
+- 17.15. Code-based Servlet container initialization
+- 17.16. Configuring Spring MVC
+- 17.16.1. Enabling the MVC Java Config or the MVC XML Namespace
+- 17.16.2. Customizing the Provided Configuration
+- 17.16.3. Interceptors
+- 17.16.4. Content Negotiation
+- 17.16.5. View Controllers
+- 17.16.6. View Resolvers
+- 17.16.7. Serving of Resources
+- 17.16.8. Falling Back On the "Default" Servlet To Serve Resources
+- 17.16.9. Path Matching
+- 17.16.10. Advanced Customizations with MVC Java Config
+- 17.16.11. Advanced Customizations with the MVC Namespace
+- 18. View technologies
+- 18.1. Introduction
+- 18.2. JSP & JSTL
+- 18.2.1. View resolvers
+- 18.2.2. Plain-old JSPs versus JSTL
+- 18.2.3. Additional tags facilitating development
+- 18.2.4. Using Spring’s form tag library
+- Configuration
+- The form tag
+- The input tag
+- The checkbox tag
+- The checkboxes tag
+- The radiobutton tag
+- The radiobuttons tag
+- The password tag
+- The select tag
+- The option tag
+- The options tag
+- The textarea tag
+- The hidden tag
+- The errors tag
+- HTTP Method Conversion
+- HTML5 Tags
+- 18.3. Tiles
+- 18.3.1. Dependencies
+- 18.3.2. How to integrate Tiles
+- UrlBasedViewResolver
+- ResourceBundleViewResolver
+- SimpleSpringPreparerFactory and SpringBeanPreparerFactory
+- 18.4. Velocity & FreeMarker
+- 18.4.1. Dependencies
+- 18.4.2. Context configuration
+- 18.4.3. Creating templates
+- 18.4.4. Advanced configuration
+- velocity.properties
+- FreeMarker
+- 18.4.5. Bind support and form handling
+- The bind macros
+- Simple binding
+- Form input generation macros
+- HTML escaping and XHTML compliance
+- 18.5. XSLT
+- 18.5.1. My First Words
+- Bean definitions
+- Standard MVC controller code
+- Convert the model data to XML
+- Defining the view properties
+- Document transformation
+- 18.5.2. Summary
+- 18.6. Document views (PDF/Excel)
+- 18.6.1. Introduction
+- 18.6.2. Configuration and setup
+- Document view definitions
+- Controller code
+- Subclassing for Excel views
+- Subclassing for PDF views
+- 18.7. JasperReports
+- 18.7.1. Dependencies
+- 18.7.2. Configuration
+- Configuring the ViewResolver
+- Configuring the Views
+- About Report Files
+- Using JasperReportsMultiFormatView
+- 18.7.3. Populating the ModelAndView
+- 18.7.4. Working with Sub-Reports
+- Configuring Sub-Report Files
+- Configuring Sub-Report Data Sources
+- 18.7.5. Configuring Exporter Parameters
+- 18.8. Feed Views
+- 18.9. XML Marshalling View
+- 18.10. JSON Mapping View
+- 18.11. XML Mapping View
+- 19. Integrating with other web frameworks
+- 19.1. Introduction
+- 19.2. Common configuration
+- 19.3. JavaServer Faces 1.2
+- 19.3.1. SpringBeanFacesELResolver (JSF 1.2+)
+- 19.3.2. FacesContextUtils
+- 19.4. Apache Struts 2.x
+- 19.5. Tapestry 5.x
+- 19.6. Further Resources
+- 20. Portlet MVC Framework
+- 20.1. Introduction
+- 20.1.1. Controllers - The C in MVC
+- 20.1.2. Views - The V in MVC
+- 20.1.3. Web-scoped beans
+- 20.2. The DispatcherPortlet
+- 20.3. The ViewRendererServlet
+- 20.4. Controllers
+- 20.4.1. AbstractController and PortletContentGenerator
+- 20.4.2. Other simple controllers
+- 20.4.3. Command Controllers
+- 20.4.4. PortletWrappingController
+- 20.5. Handler mappings
+- 20.5.1. PortletModeHandlerMapping
+- 20.5.2. ParameterHandlerMapping
+- 20.5.3. PortletModeParameterHandlerMapping
+- 20.5.4. Adding HandlerInterceptors
+- 20.5.5. HandlerInterceptorAdapter
+- 20.5.6. ParameterMappingInterceptor
+- 20.6. Views and resolving them
+- 20.7. Multipart (file upload) support
+- 20.7.1. Using the PortletMultipartResolver
+- 20.7.2. Handling a file upload in a form
+- 20.8. Handling exceptions
+- 20.9. Annotation-based controller configuration
+- 20.9.1. Setting up the dispatcher for annotation support
+- 20.9.2. Defining a controller with` @Controller`
+- 20.9.3. Mapping requests with `@RequestMapping`
+- 20.9.4. Supported handler method arguments
+- 20.9.5. Binding request parameters to method parameters with `@RequestParam`
+- 20.9.6. Providing a link to data from the model with` @ModelAttribute`
+- 20.9.7. Specifying attributes to store in a Session with` @SessionAttributes`
+- 20.9.8. Customizing WebDataBinder initialization
+- Customizing data binding with` @InitBinder`
+- Configuring a custom WebBindingInitializer
+- 20.10. Portlet application deployment
+- 21. WebSocket Support
+- 21.1. Introduction
+- 21.1.1. WebSocket Fallback Options
+- 21.1.2. A Messaging Architecture
+- 21.1.3. Sub-Protocol Support in WebSocket
+- 21.1.4. Should I Use WebSocket?
+- 21.2. WebSocket API
+- 21.2.1. Create and Configure a WebSocketHandler
+- 21.2.2. Customizing the WebSocket Handshake
+- 21.2.3. WebSocketHandler Decoration
+- 21.2.4. Deployment Considerations
+- 21.2.5. Configuring the WebSocket Engine
+- 21.2.6. Configuring allowed origins
+- 21.3. SockJS Fallback Options
+- 21.3.1. Overview of SockJS
+- 21.3.2. Enable SockJS
+- 21.3.3. HTTP Streaming in IE 8, 9: Ajax/XHR vs IFrame
+- 21.3.4. Heartbeat Messages
+- 21.3.5. Servlet 3 Async Requests
+- 21.3.6. CORS Headers for SockJS
+- 21.3.7. SockJS Client
+- 21.4. STOMP Over WebSocket Messaging Architecture
+- 21.4.1. Overview of STOMP
+- 21.4.2. Enable STOMP over WebSocket
+- 21.4.3. Flow of Messages
+- 21.4.4. Annotation Message Handling
+- 21.4.5. Sending Messages
+- 21.4.6. Simple Broker
+- 21.4.7. Full-Featured Broker
+- 21.4.8. Connections To Full-Featured Broker
+- 21.4.9. Using Dot as Separator in `@MessageMapping` Destinations
+- 21.4.10. Authentication
+- 21.4.11. User Destinations
+- 21.4.12. Listening To ApplicationContext Events and Intercepting Messages
+- 21.4.13. WebSocket Scope
+- 21.4.14. Configuration and Performance
+- 21.4.15. Runtime Monitoring
+- 21.4.16. Testing Annotated Controller Methods
+- VI. Integration
+- 22. Remoting and web services using Spring
+- 22.1. Introduction
+- 22.2. Exposing services using RMI
+- 22.2.1. Exporting the service using the RmiServiceExporter
+- 22.2.2. Linking in the service at the client
+- 22.3. Using Hessian or Burlap to remotely call services via HTTP
+- 22.3.1. Wiring up the DispatcherServlet for Hessian and co.
+- 22.3.2. Exposing your beans by using the HessianServiceExporter
+- 22.3.3. Linking in the service on the client
+- 22.3.4. Using Burlap
+- 22.3.5. Applying HTTP basic authentication to a service exposed through Hessian or Burlap
+- 22.4. Exposing services using HTTP invokers
+- 22.4.1. Exposing the service object
+- 22.4.2. Linking in the service at the client
+- 22.5. Web services
+- 22.5.1. Exposing servlet-based web services using JAX-WS
+- 22.5.2. Exporting standalone web services using JAX-WS
+- 22.5.3. Exporting web services using the JAX-WS RI’s Spring support
+- 22.5.4. Accessing web services using JAX-WS
+- 22.6. JMS
+- 22.6.1. Server-side configuration
+- 22.6.2. Client-side configuration
+- 22.7. AMQP
+- 22.8. Auto-detection is not implemented for remote interfaces
+- 22.9. Considerations when choosing a technology
+- 22.10. Accessing RESTful services on the Client
+- 22.10.1. RestTemplate
+- Working with the URI
+- Dealing with request and response headers
+- Jackson JSON Views support
+- 22.10.2. HTTP Message Conversion
+- StringHttpMessageConverter
+- FormHttpMessageConverter
+- ByteArrayHttpMessageConverter
+- MarshallingHttpMessageConverter
+- MappingJackson2HttpMessageConverter
+- MappingJackson2XmlHttpMessageConverter
+- SourceHttpMessageConverter
+- BufferedImageHttpMessageConverter
+- 22.10.3. Async RestTemplate
+- 23. Enterprise JavaBeans (EJB) integration
+- 23.1. Introduction
+- 23.2. Accessing EJBs
+- 23.2.1. Concepts
+- 23.2.2. Accessing local SLSBs
+- 23.2.3. Accessing remote SLSBs
+- 23.2.4. Accessing EJB 2.x SLSBs versus EJB 3 SLSBs
+- 23.3. Using Spring’s EJB implementation support classes
+- 23.3.1. EJB 3 injection interceptor
+- 24. JMS (Java Message Service)
+- 24.1. Introduction
+- 24.2. Using Spring JMS
+- 24.2.1. JmsTemplate
+- 24.2.2. Connections
+- Caching Messaging Resources
+- SingleConnectionFactory
+- CachingConnectionFactory
+- 24.2.3. Destination Management
+- 24.2.4. Message Listener Containers
+- SimpleMessageListenerContainer
+- DefaultMessageListenerContainer
+- 24.2.5. Transaction management
+- 24.3. Sending a Message
+- 24.3.1. Using Message Converters
+- 24.3.2. SessionCallback and ProducerCallback
+- 24.4. Receiving a message
+- 24.4.1. Synchronous Reception
+- 24.4.2. Asynchronous Reception - Message-Driven POJOs
+- 24.4.3. the SessionAwareMessageListener interface
+- 24.4.4. the MessageListenerAdapter
+- 24.4.5. Processing messages within transactions
+- 24.5. Support for JCA Message Endpoints
+- 24.6. Annotation-driven listener endpoints
+- 24.6.1. Enable listener endpoint annotations
+- 24.6.2. Programmatic endpoints registration
+- 24.6.3. Annotated endpoint method signature
+- 24.6.4. Reply management
+- 24.7. JMS Namespace Support
+- 25. JMX
+- 25.1. Introduction
+- 25.2. Exporting your beans to JMX
+- 25.2.1. Creating an MBeanServer
+- 25.2.2. Reusing an existing MBeanServer
+- 25.2.3. Lazy-initialized MBeans
+- 25.2.4. Automatic registration of MBeans
+- 25.2.5. Controlling the registration behavior
+- 25.3. Controlling the management interface of your beans
+- 25.3.1. the MBeanInfoAssembler Interface
+- 25.3.2. Using Source-Level Metadata (Java annotations)
+- 25.3.3. Source-Level Metadata Types
+- 25.3.4. the AutodetectCapableMBeanInfoAssembler interface
+- 25.3.5. Defining management interfaces using Java interfaces
+- 25.3.6. Using MethodNameBasedMBeanInfoAssembler
+- 25.4. Controlling the ObjectNames for your beans
+- 25.4.1. Reading ObjectNames from Properties
+- 25.4.2. Using the MetadataNamingStrategy
+- 25.4.3. Configuring annotation based MBean export
+- 25.5. JSR-160 Connectors
+- 25.5.1. Server-side Connectors
+- 25.5.2. Client-side Connectors
+- 25.5.3. JMX over Burlap/Hessian/SOAP
+- 25.6. Accessing MBeans via Proxies
+- 25.7. Notifications
+- 25.7.1. Registering Listeners for Notifications
+- 25.7.2. Publishing Notifications
+- 25.8. Further Resources
+- 26. JCA CCI
+- 26.1. Introduction
+- 26.2. Configuring CCI
+- 26.2.1. Connector configuration
+- 26.2.2. ConnectionFactory configuration in Spring
+- 26.2.3. Configuring CCI connections
+- 26.2.4. Using a single CCI connection
+- 26.3. Using Spring’s CCI access support
+- 26.3.1. Record conversion
+- 26.3.2. the CciTemplate
+- 26.3.3. DAO support
+- 26.3.4. Automatic output record generation
+- 26.3.5. Summary
+- 26.3.6. Using a CCI Connection and Interaction directly
+- 26.3.7. Example for CciTemplate usage
+- 26.4. Modeling CCI access as operation objects
+- 26.4.1. MappingRecordOperation
+- 26.4.2. MappingCommAreaOperation
+- 26.4.3. Automatic output record generation
+- 26.4.4. Summary
+- 26.4.5. Example for MappingRecordOperation usage
+- 26.4.6. Example for MappingCommAreaOperation usage
+- 26.5. Transactions
+- 27. Email
+- 27.1. Introduction
+- 27.2. Usage
+- 27.2.1. Basic MailSender and SimpleMailMessage usage
+- 27.2.2. Using the JavaMailSender and the MimeMessagePreparator
+- 27.3. Using the JavaMail MimeMessageHelper
+- 27.3.1. Sending attachments and inline resources
+- Attachments
+- Inline resources
+- 27.3.2. Creating email content using a templating library
+- A Velocity-based example
+- 28. Task Execution and Scheduling
+- 28.1. Introduction
+- 28.2. The Spring TaskExecutor abstraction
+- 28.2.1. TaskExecutor types
+- 28.2.2. Using a TaskExecutor
+- 28.3. The Spring TaskScheduler abstraction
+- 28.3.1. the Trigger interface
+- 28.3.2. Trigger implementations
+- 28.3.3. TaskScheduler implementations
+- 28.4. Annotation Support for Scheduling and Asynchronous Execution
+- 28.4.1. Enable scheduling annotations
+- 28.4.2. The `@Scheduled` Annotation
+- 28.4.3. The `@Async` Annotation
+- 28.4.4. Executor qualification with` @Async`
+- 28.4.5. Exception management with` @Async`
+- 28.5. The Task Namespace
+- 28.5.1. The scheduler element
+- 28.5.2. The executor element
+- 28.5.3. The scheduled-tasks element
+- 28.6. Using the Quartz Scheduler
+- 28.6.1. Using the JobDetailFactoryBean
+- 28.6.2. Using the MethodInvokingJobDetailFactoryBean
+- 28.6.3. Wiring up jobs using triggers and the SchedulerFactoryBean
+- 29. Dynamic language support
+- 29.1. Introduction
+- 29.2. A first example
+- 29.3. Defining beans that are backed by dynamic languages
+- 29.3.1. Common concepts
+- The <lang:language/> element
+- Refreshable beans
+- Inline dynamic language source files
+- Understanding Constructor Injection in the context of dynamic-language-backed beans
+- 29.3.2. JRuby beans
+- 29.3.3. Groovy beans
+- Customizing Groovy objects via a callback
+- 29.3.4. BeanShell beans
+- 29.4. Scenarios
+- 29.4.1. Scripted Spring MVC Controllers
+- 29.4.2. Scripted Validators
+- 29.5. Bits and bobs
+- 29.5.1. AOP - advising scripted beans
+- 29.5.2. Scoping
+- 29.6. Further Resources
+- 30. Cache Abstraction
+- 30.1. Introduction
+- 30.2. Understanding the cache abstraction
+- 30.3. Declarative annotation-based caching
+- 30.3.1. @Cacheable annotation
+- Default Key Generation
+- Custom Key Generation Declaration
+- Default Cache Resolution
+- Custom cache resolution
+- Conditional caching
+- Available caching SpEL evaluation context
+- 30.3.2. @CachePut annotation
+- 30.3.3. @CacheEvict annotation
+- 30.3.4. @Caching annotation
+- 30.3.5. @CacheConfig annotation
+- 30.3.6. Enable caching annotations
+- 30.3.7. Using custom annotations
+- 30.4. JCache (JSR-107) annotations
+- 30.4.1. Features summary
+- 30.4.2. Enabling JSR-107 support
+- 30.5. Declarative XML-based caching
+- 30.6. Configuring the cache storage
+- 30.6.1. JDK ConcurrentMap-based Cache
+- 30.6.2. EhCache-based Cache
+- 30.6.3. Guava Cache
+- 30.6.4. GemFire-based Cache
+- 30.6.5. JSR-107 Cache
+- 30.6.6. Dealing with caches without a backing store
+- 30.7. Plugging-in different back-end caches
+- 30.8. How can I set the TTL/TTI/Eviction policy/XXX feature?
+- VII. Appendices
+- 31. Migrating to Spring Framework 4.0
+- 32. Classic Spring Usage
+- 32.1. Classic ORM usage
+- 32.1.1. Hibernate
+- the HibernateTemplate
+- Implementing Spring-based DAOs without callbacks
+- 32.1.2. JDO
+- JdoTemplate and JdoDaoSupport
+- 32.1.3. JPA
+- JpaTemplate and JpaDaoSupport
+- 32.2. Classic Spring MVC
+- 32.3. JMS Usage
+- 32.3.1. JmsTemplate
+- 32.3.2. Asynchronous Message Reception
+- 32.3.3. Connections
+- 32.3.4. Transaction Management
+- 33. Classic Spring AOP Usage
+- 33.1. Pointcut API in Spring
+- 33.1.1. Concepts
+- 33.1.2. Operations on pointcuts
+- 33.1.3. AspectJ expression pointcuts
+- 33.1.4. Convenience pointcut implementations
+- Static pointcuts
+- Dynamic pointcuts
+- 33.1.5. Pointcut superclasses
+- 33.1.6. Custom pointcuts
+- 33.2. Advice API in Spring
+- 33.2.1. Advice lifecycles
+- 33.2.2. Advice types in Spring
+- Interception around advice
+- Before advice
+- Throws advice
+- After Returning advice
+- Introduction advice
+- 33.3. Advisor API in Spring
+- 33.4. Using the ProxyFactoryBean to create AOP proxies
+- 33.4.1. Basics
+- 33.4.2. JavaBean properties
+- 33.4.3. JDK- and CGLIB-based proxies
+- 33.4.4. Proxying interfaces
+- 33.4.5. Proxying classes
+- 33.4.6. Using global advisors
+- 33.5. Concise proxy definitions
+- 33.6. Creating AOP proxies programmatically with the ProxyFactory
+- 33.7. Manipulating advised objects
+- 33.8. Using the "autoproxy" facility
+- 33.8.1. Autoproxy bean definitions
+- BeanNameAutoProxyCreator
+- DefaultAdvisorAutoProxyCreator
+- AbstractAdvisorAutoProxyCreator
+- 33.8.2. Using metadata-driven auto-proxying
+- 33.9. Using TargetSources
+- 33.9.1. Hot swappable target sources
+- 33.9.2. Pooling target sources
+- 33.9.3. Prototype target sources
+- 33.9.4. ThreadLocal target sources
+- 33.10. Defining new Advice types
+- 33.11. Further resources
+- 34. XML Schema-based configuration
+- 34.1. Introduction
+- 34.2. XML Schema-based configuration
+- 34.2.1. Referencing the schemas
+- 34.2.2. the util schema
+- <util:constant/>
+- <util:property-path/>
+- <util:properties/>
+- <util:list/>
+- <util:map/>
+- <util:set/>
+- 34.2.3. the jee schema
+- <jee:jndi-lookup/> (simple)
+- <jee:jndi-lookup/> (with single JNDI environment setting)
+- <jee:jndi-lookup/> (with multiple JNDI environment settings)
+- <jee:jndi-lookup/> (complex)
+- <jee:local-slsb/> (simple)
+- <jee:local-slsb/> (complex)
+- <jee:remote-slsb/>
+- 34.2.4. the lang schema
+- 34.2.5. the jms schema
+- 34.2.6. the tx (transaction) schema
+- 34.2.7. the aop schema
+- 34.2.8. the context schema
+- <property-placeholder/>
+- <annotation-config/>
+- <component-scan/>
+- <load-time-weaver/>
+- <spring-configured/>
+- <mbean-export/>
+- 34.2.9. the tool schema
+- 34.2.10. the jdbc schema
+- 34.2.11. the cache schema
+- 34.2.12. the beans schema
+- 35. Extensible XML authoring
+- 35.1. Introduction
+- 35.2. Authoring the schema
+- 35.3. Coding a NamespaceHandler
+- 35.4. BeanDefinitionParser
+- 35.5. Registering the handler and the schema
+- 35.5.1. META-INF/spring.handlers
+- 35.5.2. META-INF/spring.schemas
+- 35.6. Using a custom extension in your Spring XML configuration
+- 35.7. Meatier examples
+- 35.7.1. Nesting custom tags within custom tags
+- 35.7.2. Custom attributes on normal elements
+- 35.8. Further Resources
+- 36. spring.tld
+- 36.1. Introduction
+- 36.2. the bind tag
+- 36.3. the escapeBody tag
+- 36.4. the hasBindErrors tag
+- 36.5. the htmlEscape tag
+- 36.6. the message tag
+- 36.7. the nestedPath tag
+- 36.8. the theme tag
+- 36.9. the transform tag
+- 36.10. the url tag
+- 36.11. the eval tag
+- 37. spring-form.tld
+- 37.1. Introduction
+- 37.2. the checkbox tag
+- 37.3. the checkboxes tag
+- 37.4. the errors tag
+- 37.5. the form tag
+- 37.6. the hidden tag
+- 37.7. the input tag
+- 37.8. the label tag
+- 37.9. the option tag
+- 37.10. the options tag
+- 37.11. the password tag
+- 37.12. the radiobutton tag
+- 37.13. the radiobuttons tag
+- 37.14. the select tag
+- 37.15. the textarea tag
