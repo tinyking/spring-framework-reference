@@ -9,22 +9,22 @@
       - [数据接入及集成]
       - [Web]
       - [Test]
-    - Usage scenarios
-      - Dependency Management and Naming Conventions
-      - Spring Dependencies and Depending on Spring
-      - Maven Dependency Management
-      - Maven "Bill Of Materials" Dependency
+    - [使用情景]Usage scenarios
+      - [依赖管理及命名公约]Dependency Management and Naming Conventions
+      - [Spring依赖、依赖Spring]Spring Dependencies and Depending on Spring
+      - [Maven依赖管理]Maven Dependency Management
+      - []Maven "Bill Of Materials" Dependency
       - [Gradle依赖管理]Gradle Dependency Management
       - [Ivy依赖管理]Ivy Dependency Management
-      - Distribution Zip Files
+      - [分布式Zip文件]Distribution Zip Files
     - Logging
       - 不使用Logging
       - 使用SLF4J
       - 使用Log4J
 - [Spring Framework 4.x新特性]
   - [Spring框架4.0增强及新特性]
-    - Improved Getting Started Experience
-    - Removed Deprecated Packages and Methods
+    - [改善入门体验]Improved Getting Started Experience
+    - [移除启用的包和方法]Removed Deprecated Packages and Methods
     - Java 8 (Java 6、7)
     - Java EE 6、7
     - Groovy Bean Definition DSL
