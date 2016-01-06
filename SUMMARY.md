@@ -58,7 +58,7 @@
         - 构造函数反转依赖
         - Setter反转依赖
         - Dependency resolution process
-        - Examples of dependency injection
+        - [DI实例]Examples of dependency injection
       - Dependencies and configuration in detail
         - Straight values (primitives, Strings, and so on)
         - References to other beans (collaborators)
