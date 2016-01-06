@@ -1,5 +1,3 @@
-# spring-framework-reference
-Spring框架参考文档
 - [Spring框架概述](Part I. Overview of Spring Framework/README.md)
   - 1. Getting Started with Spring
   - 2. Introduction to the Spring Framework
