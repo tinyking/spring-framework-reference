@@ -6,7 +6,7 @@ a traditional RMI service. The RmiServiceExporter explicitly supports the exposi
 services via RMI invokers.
 
 Of course, we first have to set up our service in the Spring container:
-
+通过`RmiServiceExporter`，可以将`AccountService`对象接口以RMI对象的方式暴露出来。
 ```xml
 <bean id="accountService" class="example.AccountServiceImpl">
     <!-- any additional properties, maybe a DAO? -->
