@@ -583,10 +583,10 @@
 * [集成](Part VI. Integration/README.md)
    * [Remoting 和 web services](Part VI. Integration/22. Remoting and web services using Spring.md)
        * [介绍](Part VI. Integration/22.1 Introduction.md)
+   * 使用RMI暴露Services
    * [Email](Part VI. Integration/27. Email.md)
        * [介绍](Part VI. Integration/27.1 Introduction.md)
        * [使用方法](Part VI. Integration/27.2 Usage.md)
        * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
-   * 使用RMI暴露Services
 * [附加](Part VII. Appendices/README.md)
 
