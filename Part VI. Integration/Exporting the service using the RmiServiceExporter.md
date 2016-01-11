@@ -14,7 +14,7 @@ Of course, we first have to set up our service in the Spring container:
 ```
 
 
-Next we’ll have to expose our service using the `RmiServiceExporter`:
+使用`RmiServiceExporter`暴露Services:
 
 ```xml
 <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
