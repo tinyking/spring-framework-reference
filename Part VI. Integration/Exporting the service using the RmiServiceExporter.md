@@ -12,3 +12,17 @@ Of course, we first have to set up our service in the Spring container:
     <!-- any additional properties, maybe a DAO? -->
 </bean>
 ```
+
+
+Next we’ll have to expose our service using the `RmiServiceExporter`:
+
+```xml
+<bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+    <!-- does not necessarily have to be the same name as the bean to be exported -->
+    <property name="serviceName" value="AccountService"/>
+    <property name="service" ref="accountService"/>
+    <property name="serviceInterface" value="example.AccountService"/>
+    <!-- defaults to 1099 -->
+    <property name="registryPort" value="1199"/>
+</bean>
+```
