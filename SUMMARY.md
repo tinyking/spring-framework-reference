@@ -2,7 +2,7 @@
 
 * [简介](README.md)
 * [Spring框架概述](Part I. Overview of Spring Framework/README.md)
-   * [[入门]](Part I. Overview of Spring Framework/1. Getting Started With Spring.md)
+   * [入门](Part I. Overview of Spring Framework/1. Getting Started With Spring.md)
    * [介绍](Part I. Overview of Spring Framework/2. Introduction to Spring Framework.md)
        * [依赖注入 DI、反转控制 IOC]
        * [模块]
