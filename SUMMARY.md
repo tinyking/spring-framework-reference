@@ -581,11 +581,11 @@
        * [Web安全](Part V. The Web/17.12. Web Security.md)
        * []17.13 Convention over configuration support
 * [集成](Part VI. Integration/README.md)
+   * [Remoting 和 web services](Part VI. Integration/22. Remoting and web services using Spring.md)
+       * [介绍](Part VI. Integration/22.1 Introduction.md)
    * [Email](Part VI. Integration/27. Email.md)
        * [介绍](Part VI. Integration/27.1 Introduction.md)
        * [使用方法](Part VI. Integration/27.2 Usage.md)
        * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
-   * [Remoting 和 web services](Part VI. Integration/22. Remoting and web services using Spring.md)
-       * [介绍](Part VI. Integration/22.1 Introduction.md)
 * [附加](Part VII. Appendices/README.md)
 
