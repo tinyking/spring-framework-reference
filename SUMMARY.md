@@ -7,11 +7,11 @@
        * [依赖注入 DI、反转控制 IOC](Part I. Overview of Spring Framework/2.1 Dependency Injection and Inversion of Control.md)
        * [模块](Part I. Overview of Spring Framework/2.2 Modules.md)
            * 核心容器
-           * [AOP、仪表]
-           * [消息]
-           * [数据接入及集成]
-           * [Web]
-           * [Test]
+           * AOP、仪表
+           * 消息
+           * 数据接入及集成
+           * Web
+           * Test
        * [使用情景]Usage scenarios
            * [依赖管理及命名公约]Dependency Management and Naming Conventions
            * [Spring依赖、依赖Spring]Spring Dependencies and Depending on Spring
