@@ -590,5 +590,6 @@
        * [使用方法](Part VI. Integration/27.2 Usage.md)
        * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
    * [缓存](Part VI. Integration/30. Cache Abstraction.md)
+       * 介绍
 * [附加](Part VII. Appendices/README.md)
 
