@@ -7,7 +7,7 @@
        * [依赖注入 DI、反转控制 IOC](Part I. Overview of Spring Framework/2.1 Dependency Injection and Inversion of Control.md)
        * [模块](Part I. Overview of Spring Framework/2.2 Modules.md)
            * [核心容器](Part I. Overview of Spring Framework/Core Container.md)
-           * AOP、仪表
+           * [AOP、仪表](Part I. Overview of Spring Framework/AOP and Instrumentation.md)
            * 消息
            * 数据接入及集成
            * Web
