@@ -12,7 +12,7 @@
            * [数据接入及集成](Part I. Overview of Spring Framework/Data Access Integration.md)
            * [Web](Part I. Overview of Spring Framework/Web.md)
            * [Test](Part I. Overview of Spring Framework/Test.md)
-       * 使用情景
+       * [使用情景](Part I. Overview of Spring Framework/2.3 Usage scenarios.md)
            * [依赖管理及命名公约]Dependency Management and Naming Conventions
            * [Spring依赖、依赖Spring]Spring Dependencies and Depending on Spring
            * [Maven依赖管理]Maven Dependency Management
