@@ -5,7 +5,7 @@
    * [入门](Part I. Overview of Spring Framework/1. Getting Started With Spring.md)
    * [介绍](Part I. Overview of Spring Framework/2. Introduction to Spring Framework.md)
        * [依赖注入 DI、反转控制 IOC](Part I. Overview of Spring Framework/2.1 Dependency Injection and Inversion of Control.md)
-       * [模块](Part I. Overview of Spring Framework/2.2 Modules.mc)
+       * [模块](Part I. Overview of Spring Framework/2.2 Modules.md)
            * 核心容器
            * [AOP、仪表]
            * [消息]
