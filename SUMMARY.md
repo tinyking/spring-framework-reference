@@ -17,7 +17,7 @@
            * [Spring依赖、依赖Spring](Part I. Overview of Spring Framework/Spring Dependencies and Depending on Spring.md)
            * [Maven依赖管理](Part I. Overview of Spring Framework/Maven Dependency Management.md)
            * [Maven依赖清单](Part I. Overview of Spring Framework/Maven "Bill Of Materials" Dependency.md)
-           * [Gradle依赖管理]Gradle Dependency Management
+           * Gradle依赖管理
            * [Ivy依赖管理]Ivy Dependency Management
            * [分布式Zip文件]Distribution Zip Files
        * Logging
