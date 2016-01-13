@@ -14,7 +14,7 @@
            * [Test](Part I. Overview of Spring Framework/Test.md)
        * [使用情景](Part I. Overview of Spring Framework/2.3 Usage scenarios.md)
            * [依赖管理及命名公约](Part I. Overview of Spring Framework/Dependency Management and Naming Conventions.md)
-           * [Spring依赖、依赖Spring]Spring Dependencies and Depending on Spring
+           * Spring依赖、依赖Spring
            * [Maven依赖管理]Maven Dependency Management
            * []Maven "Bill Of Materials" Dependency
            * [Gradle依赖管理]Gradle Dependency Management
