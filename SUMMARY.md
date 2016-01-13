@@ -15,7 +15,7 @@
        * [使用情景](Part I. Overview of Spring Framework/2.3 Usage scenarios.md)
            * [依赖管理及命名公约](Part I. Overview of Spring Framework/Dependency Management and Naming Conventions.md)
            * [Spring依赖、依赖Spring](Part I. Overview of Spring Framework/Spring Dependencies and Depending on Spring.md)
-           * Maven依赖管理
+           * [Maven依赖管理](Part I. Overview of Spring Framework/Maven Dependency Management.md)
            * []Maven "Bill Of Materials" Dependency
            * [Gradle依赖管理]Gradle Dependency Management
            * [Ivy依赖管理]Ivy Dependency Management
