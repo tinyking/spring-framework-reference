@@ -31,7 +31,7 @@
        * [移除弃用的包和方法](Part II. What’s New in Spring Framework 4.x/3.2 Removed Deprecated Packages and Methods.md)
        * [Java 8 (Java 6、7)](Part II. What’s New in Spring Framework 4.x/3.3 Java 8 (as well as 6 and 7)
        * [Java EE 6、7](Part II. What’s New in Spring Framework 4.x/3.4 Java EE 6 and 7.md)
-       * Groovy Bean Definition DSL
+       * Groovy Bean定义DSL
        * 核心容器改进
        * 通用Web改进
        * WebSocket、SockJS、STOMP Messaging
