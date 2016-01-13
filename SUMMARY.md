@@ -16,7 +16,7 @@
            * [依赖管理及命名公约](Part I. Overview of Spring Framework/Dependency Management and Naming Conventions.md)
            * [Spring依赖、依赖Spring](Part I. Overview of Spring Framework/Spring Dependencies and Depending on Spring.md)
            * [Maven依赖管理](Part I. Overview of Spring Framework/Maven Dependency Management.md)
-           * Maven依赖清单
+           * [Maven依赖清单](Part I. Overview of Spring Framework/Maven "Bill Of Materials" Dependency.md)
            * [Gradle依赖管理]Gradle Dependency Management
            * [Ivy依赖管理]Ivy Dependency Management
            * [分布式Zip文件]Distribution Zip Files
