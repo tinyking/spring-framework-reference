@@ -42,7 +42,7 @@
        * [Web改进](Part II. What’s New in Spring Framework 4.x/4.3 Web Improvements.md)
        * [WebSocket STOMP Messaging改进](Part II. What’s New in Spring Framework 4.x/4.4 WebSocket STOMP Messaging Improvements.md)
        * [测试改进](Part II. What’s New in Spring Framework 4.x/4.5 Testing Improvements.md)
-* [核心技术]
+* [核心技术](Part III. Core Technologies/README.md)
    * IoC容器
        * Spring Ioc容器及beans介绍
        * 容器概览
