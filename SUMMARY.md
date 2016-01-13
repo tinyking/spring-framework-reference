@@ -19,7 +19,7 @@
            * [Maven依赖清单](Part I. Overview of Spring Framework/Maven "Bill Of Materials" Dependency.md)
            * [Gradle依赖管理](Part I. Overview of Spring Framework/Gradle Dependency Management.md)
            * [Ivy依赖管理](Part I. Overview of Spring Framework/Ivy Dependency Management.md)
-           * 分布式Zip文件
+           * [分布式Zip文件](Part I. Overview of Spring Framework/Distribution Zip Files.md)
        * Logging
            * 不使用Logging
            * 使用SLF4J
