@@ -32,7 +32,7 @@
        * [Java 8 (Java 6、7)](Part II. What’s New in Spring Framework 4.x/3.3 Java 8 (as well as 6 and 7)
        * [Java EE 6、7](Part II. What’s New in Spring Framework 4.x/3.4 Java EE 6 and 7.md)
        * [Groovy Bean定义DSL](Part II. What’s New in Spring Framework 4.x/3.5 Groovy Bean Definition DSL.md)
-       * 核心容器改进
+       * [核心容器改进](Part II. What’s New in Spring Framework 4.x/3.6 Core Container Improvements.md)
        * 通用Web改进
        * WebSocket、SockJS、STOMP Messaging
        * 测试改进
