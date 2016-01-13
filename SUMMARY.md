@@ -25,7 +25,7 @@
            * [使用SLF4J](Part I. Overview of Spring Framework/Using SLF4J.md)
            * [使用Log4J](Part I. Overview of Spring Framework/Using Log4J.md)
                * [运行时容器与本地JCL](Part I. Overview of Spring Framework/Runtime Containers with Native JCL.md)
-* [Spring Framework 4.x新特性]
+* Spring Framework 4.x新特性
    * [Spring框架4.0增强及新特性]
        * [改善入门体验]Improved Getting Started Experience
        * [移除启用的包和方法]Removed Deprecated Packages and Methods
