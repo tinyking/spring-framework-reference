@@ -1,4 +1,4 @@
-# 目录
+# Summary
 
 * [简介](README.md)
 * [Spring框架概述](Part I. Overview of Spring Framework/README.md)
@@ -43,7 +43,7 @@
        * [WebSocket STOMP Messaging改进](Part II. What’s New in Spring Framework 4.x/4.4 WebSocket STOMP Messaging Improvements.md)
        * [测试改进](Part II. What’s New in Spring Framework 4.x/4.5 Testing Improvements.md)
 * [核心技术](Part III. Core Technologies/README.md)
-   * IoC容器
+   * [IoC容器](Part III. Core Technologies/5. The Ioc container.md)
        * Spring Ioc容器及beans介绍
        * 容器概览
            * 配置元数据
@@ -584,19 +584,15 @@
 * [集成](Part VI. Integration/README.md)
    * [Remoting 和 web services](Part VI. Integration/22. Remoting and web services using Spring.md)
        * [介绍](Part VI. Integration/22.1 Introduction.md)
-
-
-
-
-   * [使用RMI暴露Services](Part VI. Integration/22.2 Exposing services using RMI.md)
-       * [使用RmiServiceExporter导出Services](Part VI. Integration/Exporting the service using the RmiServiceExporter.md)
-   * [Email](Part VI. Integration/27. Email.md)
-       * [介绍](Part VI. Integration/27.1 Introduction.md)
-       * [使用方法](Part VI. Integration/27.2 Usage.md)
-       * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
-   * [缓存抽象](Part VI. Integration/30. Cache Abstraction.md)
-       * [介绍](Part VI. Integration/30.1 Introduction.md)
-       * [理解缓存抽象](Part VI. Integration/30.2 Understanding the cache abstraction.md)
-       * [声明基于注解的缓存](Part VI. Integration/30.3 Declarative annotation-based caching.md)
-* [附加](Part VII. Appendices/README.md)
+* [使用RMI暴露Services](Part VI. Integration/22.2 Exposing services using RMI.md)
+   * [使用RmiServiceExporter导出Services](Part VI. Integration/Exporting the service using the RmiServiceExporter.md)
+* [Email](Part VI. Integration/27. Email.md)
+   * [介绍](Part VI. Integration/27.1 Introduction.md)
+   * [使用方法](Part VI. Integration/27.2 Usage.md)
+   * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
+* [缓存抽象](Part VI. Integration/30. Cache Abstraction.md)
+   * [介绍](Part VI. Integration/30.1 Introduction.md)
+   * [理解缓存抽象](Part VI. Integration/30.2 Understanding the cache abstraction.md)
+   * [声明基于注解的缓存](Part VI. Integration/30.3 Declarative annotation-based caching.md)
+       * [附加](Part VII. Appendices/README.md)
 
