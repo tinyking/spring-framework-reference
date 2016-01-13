@@ -40,7 +40,7 @@
        * [JMS改进](Part II. What’s New in Spring Framework 4.x/4.1 JMS Improvements.md)
        * [Caching改进](Part II. What’s New in Spring Framework 4.x/4.2 Caching Improvements.md)
        * [Web改进](Part II. What’s New in Spring Framework 4.x/4.3 Web Improvements.md)
-       * [WebSocket STOMP Messaging改进](Part II. What’s New in Spring Framework 4.x/4.4 WebSocket STOMP消息改进.md)
+       * [WebSocket STOMP Messaging改进](Part II. What’s New in Spring Framework 4.x/4.4 WebSocket STOMP Messaging Improvements.md)
        * 测试改进
 * [核心技术]
    * IoC容器
