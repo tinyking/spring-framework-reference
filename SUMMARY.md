@@ -27,7 +27,7 @@
                * [运行时容器与本地JCL](Part I. Overview of Spring Framework/Runtime Containers with Native JCL.md)
 * [Spring Framework 4.x新特性](Part II. What’s New in Spring Framework 4.x/README.md)
    * [Spring框架4.0增强及新特性](Part II. What’s New in Spring Framework 4.x/3. New Features and Enhancements in Spring Framework 4.0.md)
-       * 改善入门体验
+       * [改善入门体验](Part II. What’s New in Spring Framework 4.x/3.1 Improved Getting Started Experience.md)
        * [移除启用的包和方法]Removed Deprecated Packages and Methods
        * Java 8 (Java 6、7)
        * Java EE 6、7
