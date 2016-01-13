@@ -20,7 +20,7 @@
            * [Gradle依赖管理](Part I. Overview of Spring Framework/Gradle Dependency Management.md)
            * [Ivy依赖管理](Part I. Overview of Spring Framework/Ivy Dependency Management.md)
            * [分布式Zip文件](Part I. Overview of Spring Framework/Distribution Zip Files.md)
-       * [Logging](Part I. Overview of Spring Framework/logging.md)
+       * [Logging](Part I. Overview of Spring Framework/Logging.md)
            * 不使用Logging
            * 使用SLF4J
            * 使用Log4J
