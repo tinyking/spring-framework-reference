@@ -23,7 +23,7 @@
        * [Logging](Part I. Overview of Spring Framework/Logging.md)
            * [不使用Commons Logging](Part I. Overview of Spring Framework/Not Using Commons Logging.md)
            * [使用SLF4J](Part I. Overview of Spring Framework/Using SLF4J.md)
-           * 使用Log4J
+           * [使用Log4J](Part I. Overview of Spring Framework/Using Log4J.md)
 * [Spring Framework 4.x新特性]
    * [Spring框架4.0增强及新特性]
        * [改善入门体验]Improved Getting Started Experience
