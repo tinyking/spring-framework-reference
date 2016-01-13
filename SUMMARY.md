@@ -36,7 +36,7 @@
        * 通用Web改进
        * WebSocket、SockJS、STOMP Messaging
        * 测试改进
-   * Spring框架4.1增强及新特性
+   * [Spring框架4.1增强及新特性](Part II. What’s New in Spring Framework 4.x/4. New Features and Enhancements in Spring Framework 4.1.md)
        * JMS改进
        * Caching改进
        * Web改进
