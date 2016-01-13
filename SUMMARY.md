@@ -21,7 +21,7 @@
            * [Ivy依赖管理](Part I. Overview of Spring Framework/Ivy Dependency Management.md)
            * [分布式Zip文件](Part I. Overview of Spring Framework/Distribution Zip Files.md)
        * [Logging](Part I. Overview of Spring Framework/Logging.md)
-           * 不使用Commons Logging
+           * [不使用Commons Logging](Part I. Overview of Spring Framework/Not Using Commons Logging.md)
            * 使用SLF4J
            * 使用Log4J
 * [Spring Framework 4.x新特性]
