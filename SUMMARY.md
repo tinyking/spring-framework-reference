@@ -38,7 +38,7 @@
        * [测试改进](Part II. What’s New in Spring Framework 4.x/3.9 Testing Improvements.md)
    * [Spring框架4.1增强及新特性](Part II. What’s New in Spring Framework 4.x/4. New Features and Enhancements in Spring Framework 4.1.md)
        * [JMS改进](Part II. What’s New in Spring Framework 4.x/4.1 JMS Improvements.md)
-       * Caching改进
+       * [Caching改进](Part II. What’s New in Spring Framework 4.x/4.2 Caching Improvements.md)
        * Web改进
        * WebSocket STOMP Messaging改进
        * 测试改进
