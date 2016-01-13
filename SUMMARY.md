@@ -34,7 +34,7 @@
        * [Groovy Bean定义DSL](Part II. What’s New in Spring Framework 4.x/3.5 Groovy Bean Definition DSL.md)
        * [核心容器改进](Part II. What’s New in Spring Framework 4.x/3.6 Core Container Improvements.md)
        * [通用Web改进](Part II. What’s New in Spring Framework 4.x/3.7 General WEeb Improvements.md)
-       * WebSocket、SockJS、STOMP Messaging
+       * WebSocket、SockJS 和 STOMP消息
        * 测试改进
    * [Spring框架4.1增强及新特性](Part II. What’s New in Spring Framework 4.x/4. New Features and Enhancements in Spring Framework 4.1.md)
        * JMS改进
