@@ -415,6 +415,7 @@
                        * Client-Side REST Tests
                    * PetClinic Example
                * Further Resources
+   * Spring AOP APIs
 * [数据接入](Part IV. Data Access/README.md)
    * Transaction Management
        * Introduction to Spring Framework transaction management
