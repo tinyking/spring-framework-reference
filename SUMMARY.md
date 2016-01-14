@@ -592,6 +592,7 @@
    * [使用 Spring 实现 Remoting 和 web services](Part VI. Integration/22. Remoting and web services using Spring.md)
        * [介绍](Part VI. Integration/22.1 Introduction.md)
    * 企业级JavaBeans(EJB)集成
+   * JMS
    * [使用RMI暴露Services](Part VI. Integration/22.2 Exposing services using RMI.md)
        * [使用RmiServiceExporter导出Services](Part VI. Integration/Exporting the service using the RmiServiceExporter.md)
    * [缓存抽象](Part VI. Integration/30. Cache Abstraction.md)
@@ -603,6 +604,5 @@
        * [介绍](Part VI. Integration/27.1 Introduction.md)
        * [使用方法](Part VI. Integration/27.2 Usage.md)
        * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
-   * JMS
 * 第七部分 附加
 
