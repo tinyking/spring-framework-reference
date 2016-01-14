@@ -586,6 +586,7 @@
        * []17.13 Convention over configuration support
    * [视图技术](Part V. The Web/18. View technologies.md)
    * [与其他Web框架交互](Part V. The Web/19. Integrating with other web frameworks.md)
+   * Portlet MVC 框架
 * [第六部分 集成](Part VI. Integration/README.md)
    * [使用RMI暴露Services](Part VI. Integration/22.2 Exposing services using RMI.md)
        * [使用RmiServiceExporter导出Services](Part VI. Integration/Exporting the service using the RmiServiceExporter.md)
