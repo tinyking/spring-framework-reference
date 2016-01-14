@@ -417,7 +417,7 @@
                * Further Resources
    * [Spring AOP APIs](Part III. Core Technologies/10. Spring AOP APIs.md)
    * [Testing](Part III. Core Technologies/11. Testing.md)
-* [第四部分数据接入](Part IV. Data Access/README.md)
+* [第四部分 数据接入](Part IV. Data Access/README.md)
    * [事务管理](Part IV. Data Access/12. Transaction Management.md)
        * Introduction to Spring Framework transaction management
        * Advantages of the Spring Framework’s transaction support model
