@@ -1,6 +1,7 @@
 # Summary
 
 * [简介](README.md)
+   * 第七部分 附加
 * [第一部分 Spring框架概述](Part I. Overview of Spring Framework/README.md)
    * [入门](Part I. Overview of Spring Framework/1. Getting Started With Spring.md)
    * [介绍](Part I. Overview of Spring Framework/2. Introduction to Spring Framework.md)
@@ -608,6 +609,4 @@
        * [理解缓存抽象](Part VI. Integration/30.2 Understanding the cache abstraction.md)
        * [声明基于注解的缓存](Part VI. Integration/30.3 Declarative annotation-based caching.md)
            * [附加](Part VII. Appendices/README.md)
-* [第七部分 附加](Part VII. Appendices/README.md)
-   * 迁移到Spring框架4.0
 
