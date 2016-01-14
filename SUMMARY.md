@@ -176,7 +176,7 @@
        * [BeanFactory](Part III. Core Technologies/The BeanFactory.md)
            * BeanFactory or ApplicationContext?
            * Glue code and the evil singleton
-   * 资源
+   * [资源](Part III. Core Technologies/Resources.md)
        * Introduction
        * The Resource interface
        * Built-in Resource implementations
