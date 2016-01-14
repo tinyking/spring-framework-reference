@@ -610,7 +610,7 @@
        * [声明基于注解的缓存](Part VI. Integration/30.3 Declarative annotation-based caching.md)
 * [第七部分 附加](Part VII. Appendices/README.md)
    * [迁移到Spring框架4.0](Part VII. Appendices/31. Migrating to Spring Framework 4.0.md)
-   * 经典 Spring 用法
+   * [经典 Spring 用法](Part VII. Appendices/32. Classic Spring Usage.md)
    * 经典 Spring AOP 用法
    * 基于XML Schema的配置
    * 可扩展的XML编写
