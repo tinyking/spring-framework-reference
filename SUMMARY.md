@@ -64,7 +64,7 @@
                * [基于Setter的依赖注入](Part III. Core Technologies/Setter-based dependency injection.md)
                * [依赖解决处理](Part III. Core Technologies/Dependency resolution process.md)
                * [依赖注入实例](Part III. Core Technologies/Examples of dependency injection.md)
-           * 依赖详细配置
+           * [依赖详细配置](Part III. Core Technologies/Dependencies and configuration in detail.md)
                * Straight values (primitives, Strings, and so on)
                * References to other beans (collaborators)
                * Inner beans
