@@ -233,7 +233,7 @@
                * Triggering @Controller Input Validation
                * Configuring a Validator for use by Spring MVC
                * Configuring a JSR-303/JSR-349 Validator for use by Spring MVC
-   * Spring Expression Language (SpEL)
+   * Spring表达式语言 (SpEL)
        * Introduction
        * Feature Overview
        * Expression Evaluation using Spring’s Expression Interface
