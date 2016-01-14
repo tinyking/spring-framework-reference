@@ -122,7 +122,7 @@
            * CustomAutowireConfigurer
            * @Resource
            * @PostConstruct and @PreDestroy
-       * Classpath扫描和组件管理
+       * [Classpath扫描和组件管理](Part III. Core Technologies/Classpath scanning and managed components.md)
            * @Component and further stereotype annotations
            * Meta-annotations
            * Automatically detecting classes and registering bean definitions
