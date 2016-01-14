@@ -607,5 +607,6 @@
        * [声明基于注解的缓存](Part VI. Integration/30.3 Declarative annotation-based caching.md)
            * [附加](Part VII. Appendices/README.md)
    * 任务执行、调度
+   * 动态语言支持
 * 第七部分 附加
 
