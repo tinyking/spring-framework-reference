@@ -157,7 +157,7 @@
                * Using the @Import annotation
                * Conditionally including @Configuration classes or @Beans
                * Combining Java and XML configuration
-       * Environment abstraction
+       * 环境抽象
            * Bean definition profiles
                * @Profile
            * XML Bean definition profiles
