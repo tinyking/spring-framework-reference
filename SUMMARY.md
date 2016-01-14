@@ -131,7 +131,7 @@
            * Naming autodetected components
            * Providing a scope for autodetected components
            * Providing qualifier metadata with annotations
-       * Using JSR 330 Standard Annotations
+       * 使用 JSR 330 标准注解
            * Dependency Injection with @Inject and @Named
            * @Named: a standard equivalent to the @Component annotation
            * Limitations of the standard approach
