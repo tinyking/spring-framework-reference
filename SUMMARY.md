@@ -50,7 +50,7 @@
            * 容器实例化
                * 基于XML的配置
            * 容器使用
-       * Bean概览
+       * [Bean概览](Part III. Core Technologies/5.3 Bean Overview.md)
            * 命名beans
                * Bean别名
            * Beans实例化
