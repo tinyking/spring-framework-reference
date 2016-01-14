@@ -233,7 +233,7 @@
                * Triggering @Controller Input Validation
                * Configuring a Validator for use by Spring MVC
                * Configuring a JSR-303/JSR-349 Validator for use by Spring MVC
-   * [Spring表达式语言 (SpEL)](Part III. Core Technologies/Spring Expression Language (SpEL).md)
+   * [Spring表达式语言 (SpEL)](Part III. Core Technologies/Spring Expression Language (SpEL)
        * Introduction
        * Feature Overview
        * Expression Evaluation using Spring’s Expression Interface
@@ -271,7 +271,7 @@
            * Collection Projection
            * Expression templating
        * Classes used in the examples
-   * Aspect Oriented Programming with Spring
+   * 面向切面编程
        * Introduction
            * AOP concepts
            * Spring AOP capabilities and goals
