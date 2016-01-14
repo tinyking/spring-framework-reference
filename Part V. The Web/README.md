@@ -9,7 +9,9 @@ such as JSF and.
 Following that is coverage of Spring Framework’s MVC portlet framework.
 The section then concludes with comprehensive coverage of the Spring Framework Chapter 21,
 WebSocket Support (including Section 21.4, “STOMP Over WebSocket Messaging Architecture”).
-• 第17张 Web MVC framework
+
+
+• 第17张 Web MVC 框架
 • Chapter 18, View technologies
 • Chapter 19, Integrating with other web frameworks
 • Chapter 20, Portlet MVC Framework
