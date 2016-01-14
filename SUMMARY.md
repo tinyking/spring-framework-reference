@@ -166,7 +166,7 @@
            * PropertySource Abstraction
            * @PropertySource
            * Placeholder resolution in statements
-       * Registering a LoadTimeWeaver
+       * 注册一个LoadTimeWeaver
        * Additional Capabilities of the ApplicationContext
            * Internationalization using MessageSource
            * Standard and Custom Events
