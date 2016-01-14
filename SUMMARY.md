@@ -573,7 +573,7 @@
                * XML Schema-based Configuration
        * 16.9. XStream
            * 16.9.1. XStreamMarshaller
-* [Web](Part V. The Web/README.md)
+* [第五部分 Web](Part V. The Web/README.md)
    * [Web MVC框架](Part V. The Web/17. Web MVC framework.md)
        * [Spring Web MVC框架介绍](Part V. The Web/17.1. Introduction to Spring Web MVC framework)
            * [Spring Web MVC特性]17.1.1. Features of Spring Web MVC
