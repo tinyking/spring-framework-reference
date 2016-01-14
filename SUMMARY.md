@@ -456,7 +456,7 @@
        * Solutions to common problems
            * Use of the wrong transaction manager for a specific DataSource
        * Further Resources
-   * DAO support
+   * DAO 支持
        * Introduction
        * Consistent exception hierarchy
        * Annotations used for configuring DAO or Repository classes
