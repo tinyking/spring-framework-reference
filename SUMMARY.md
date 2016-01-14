@@ -608,5 +608,5 @@
        * [介绍](Part VI. Integration/30.1 Introduction.md)
        * [理解缓存抽象](Part VI. Integration/30.2 Understanding the cache abstraction.md)
        * [声明基于注解的缓存](Part VI. Integration/30.3 Declarative annotation-based caching.md)
- * [附加](Part VII. Appendices/README.md)
+* [附加](Part VII. Appendices/README.md)
 
