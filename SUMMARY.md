@@ -610,4 +610,5 @@
        * [声明基于注解的缓存](Part VI. Integration/30.3 Declarative annotation-based caching.md)
 * [第七部分 附加](Part VII. Appendices/README.md)
    * 迁移到Spring框架4.0
+   * Spring 经典用法
 
