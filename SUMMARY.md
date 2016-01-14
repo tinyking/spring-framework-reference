@@ -606,5 +606,6 @@
        * [理解缓存抽象](Part VI. Integration/30.2 Understanding the cache abstraction.md)
        * [声明基于注解的缓存](Part VI. Integration/30.3 Declarative annotation-based caching.md)
            * [附加](Part VII. Appendices/README.md)
+   * 任务执行、调度
 * 第七部分 附加
 
