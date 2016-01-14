@@ -11,7 +11,7 @@ The section then concludes with comprehensive coverage of the Spring Framework C
 WebSocket Support (including Section 21.4, “STOMP Over WebSocket Messaging Architecture”).
 
 
-• 第17张 Web MVC 框架
+• 第17章 Web MVC 框架
 • Chapter 18, View technologies
 • Chapter 19, Integrating with other web frameworks
 • Chapter 20, Portlet MVC Framework
