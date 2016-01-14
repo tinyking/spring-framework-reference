@@ -135,7 +135,7 @@
            * Dependency Injection with @Inject and @Named
            * @Named: a standard equivalent to the @Component annotation
            * Limitations of the standard approach
-       * 基于Java的容器配置
+       * [基于Java的容器配置](Part III. Core Technologies/Java-based container configuration.md)
            * Basic concepts: @Bean and @Configuration
            * Instantiating the Spring container using AnnotationConfigApplicationContext
                * Simple construction
