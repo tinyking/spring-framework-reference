@@ -173,7 +173,7 @@
            * Convenient access to low-level resources
            * Convenient ApplicationContext instantiation for web applications
            * Deploying a Spring ApplicationContext as a Java EE RAR file
-       * The BeanFactory
+       * BeanFactory
            * BeanFactory or ApplicationContext?
            * Glue code and the evil singleton
    * Resources
