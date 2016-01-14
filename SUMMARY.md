@@ -612,7 +612,7 @@
    * [迁移到Spring框架4.0](Part VII. Appendices/31. Migrating to Spring Framework 4.0.md)
    * [经典 Spring 用法](Part VII. Appendices/32. Classic Spring Usage.md)
    * [经典 Spring AOP 用法](Part VII. Appendices/33. Classic Spring AOP Usage.md)
-   * 基于XML Schema的配置
+   * [基于XML Schema的配置](Part VII. Appendices/34. XML Schema-based configuration.md)
    * 可扩展的XML编写
    * spring.tld
    * spring-form.tld
