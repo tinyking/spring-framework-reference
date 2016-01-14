@@ -45,7 +45,7 @@
 * [核心技术](Part III. Core Technologies/README.md)
    * [IoC容器](Part III. Core Technologies/5. The Ioc container.md)
        * [Spring Ioc容器及beans介绍](Part III. Core Technologies/5.1 Introduction to the Spring IoC container and beans.md)
-       * 容器概览
+       * [容器概览](Part III. Core Technologies/5.2 Container overview.md)
            * 配置元数据
            * 容器实例化
                * 基于XML的配置
