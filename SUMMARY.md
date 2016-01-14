@@ -167,7 +167,7 @@
            * @PropertySource
            * Placeholder resolution in statements
        * [注册一个LoadTimeWeaver](Part III. Core Technologies/Registering a LoadTimeWeaver.md)
-       * Additional Capabilities of the ApplicationContext
+       * ApplicationContext的附加功能
            * Internationalization using MessageSource
            * Standard and Custom Events
            * Convenient access to low-level resources
