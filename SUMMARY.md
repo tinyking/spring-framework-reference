@@ -520,7 +520,7 @@
        * Initializing a DataSource
            * Initializing a database instance using Spring XML
                * Initialization of Other Components that Depend on the Database
-   * 对象关系映射 (ORM) 数据接入
+   * [对象关系映射 (ORM) 数据接入](Part IV. Data Access/15. Object Relational Mapping (ORM) Data Access.md)
        * Introduction to ORM with Spring
        * General ORM integration considerations
            * Resource and transaction management
