@@ -78,7 +78,7 @@
            * [自动装配](Part III. Core Technologies/Autowiring collaborators.md)
                * Limitations and disadvantages of autowiring
                * Excluding a bean from autowiring
-           * Method injection
+           * 方法注入
                * Lookup method injection
                * Arbitrary method replacement
        * Bean scopes
