@@ -613,4 +613,5 @@
    * 经典 Spring 用法
    * 经典 Spring AOP 用法
    * 基于XML Schema的配置
+   * 可扩展的XML编写
 
