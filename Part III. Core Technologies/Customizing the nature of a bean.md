@@ -1,2 +1,2 @@
-# Customizing the nature of a bean
+# 定制Bean的特性
 
