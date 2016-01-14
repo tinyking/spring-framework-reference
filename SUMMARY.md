@@ -106,7 +106,7 @@
            * ApplicationContextAware and BeanNameAware
            * Other Aware interfaces
        * [Bean定义继承](Part III. Core Technologies/Bean definition inheritance.md)
-       * Container Extension Points
+       * 容器扩展点
            * Customizing beans using a BeanPostProcessor
                * Example: Hello World, BeanPostProcessor-style
                * Example: The RequiredAnnotationBeanPostProcessor
