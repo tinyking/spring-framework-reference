@@ -584,7 +584,7 @@
            * 17.2.3. DispatcherServlet Processing Sequence
        * [Web安全](Part V. The Web/17.12. Web Security.md)
        * []17.13 Convention over configuration support
-* [集成](Part VI. Integration/README.md)
+* [第六部分 集成](Part VI. Integration/README.md)
    * [Remoting 和 web services](Part VI. Integration/22. Remoting and web services using Spring.md)
        * [介绍](Part VI. Integration/22.1 Introduction.md)
 * [使用RMI暴露Services](Part VI. Integration/22.2 Exposing services using RMI.md)
