@@ -73,7 +73,7 @@
                * XML shortcut with the p-namespace
                * XML shortcut with the c-namespace
                * Compound property names
-           * Using depends-on
+           * 使用depends-on
            * Lazy-initialized beans
            * Autowiring collaborators
                * Limitations and disadvantages of autowiring
