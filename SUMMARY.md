@@ -197,7 +197,7 @@
                * The Classpath*: portability classpath*: prefix
                * Other notes relating to wildcards
            * FileSystemResource caveats
-   * Validation, Data Binding, and Type Conversion
+   * 校验,数据绑定,类型转换
        * Introduction
        * Validation using Spring’s Validator interface
        * Resolving codes to error messages
