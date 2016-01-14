@@ -57,7 +57,7 @@
                * 构造函数实例化
                * 静态工厂方法实例化
                * 静态工厂实例方法实例化
-       * 依赖
+       * [依赖](Part III. Core Technologies/5.4 Dependencies.md)
            * 反转依赖
                * 构造函数反转依赖
                * Setter反转依赖
