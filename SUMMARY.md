@@ -62,7 +62,7 @@
                * [基于构造方法依赖注入](Part III. Core Technologies/Constructor-based dependency injection.md)
                    * [构造方法参数方案](Part III. Core Technologies/Constructor argument resolution.md)
                * [基于Setter的依赖注入](Part III. Core Technologies/Setter-based dependency injection.md)
-               * 依赖解决处理
+               * [依赖解决处理](Part III. Core Technologies/Dependency resolution process.md)
                * [DI实例]Examples of dependency injection
            * Dependencies and configuration in detail
                * Straight values (primitives, Strings, and so on)
