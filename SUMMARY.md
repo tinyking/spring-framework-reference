@@ -271,7 +271,7 @@
            * Collection Projection
            * Expression templating
        * Classes used in the examples
-   * 面向切面编程
+   * [面向切面编程](Part III. Core Technologies/Aspect Oriented Programming with Spring.md)
        * Introduction
            * AOP concepts
            * Spring AOP capabilities and goals
