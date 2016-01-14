@@ -460,7 +460,7 @@
        * Introduction
        * Consistent exception hierarchy
        * Annotations used for configuring DAO or Repository classes
-   * Data access with JDBC
+   * 使用JDBC的数据接入
        * Introduction to Spring Framework JDBC
            * Choosing an approach for JDBC database access
            * Package hierarchy
