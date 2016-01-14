@@ -63,7 +63,7 @@
                    * [构造方法参数方案](Part III. Core Technologies/Constructor argument resolution.md)
                * [基于Setter的依赖注入](Part III. Core Technologies/Setter-based dependency injection.md)
                * [依赖解决处理](Part III. Core Technologies/Dependency resolution process.md)
-               * 依赖注入实例
+               * [依赖注入实例](Part III. Core Technologies/Examples of dependency injection.md)
            * Dependencies and configuration in detail
                * Straight values (primitives, Strings, and so on)
                * References to other beans (collaborators)
