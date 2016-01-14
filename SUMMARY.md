@@ -105,7 +105,7 @@
                * Shutting down the Spring IoC container gracefully in non-web applications
            * ApplicationContextAware and BeanNameAware
            * Other Aware interfaces
-       * Bean定义继承
+       * [Bean定义继承](Part III. Core Technologies/Bean definition inheritance.md)
        * Container Extension Points
            * Customizing beans using a BeanPostProcessor
                * Example: Hello World, BeanPostProcessor-style
