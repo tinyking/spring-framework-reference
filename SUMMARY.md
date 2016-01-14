@@ -114,7 +114,7 @@
                * Example: the Class name substitution PropertyPlaceholderConfigurer
                * Example: the PropertyOverrideConfigurer
            * Customizing instantiation logic with a FactoryBean
-       * 基于注解的容器配置
+       * [基于注解的容器配置](Part III. Core Technologies/Annotation-based container configuration.md)
            * `@Required`
            * `@Autowired`
            * Fine-tuning annotation-based autowiring with qualifiers
