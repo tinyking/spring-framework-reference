@@ -416,6 +416,7 @@
                    * PetClinic Example
                * Further Resources
    * [Spring AOP APIs](Part III. Core Technologies/10. Spring AOP APIs.md)
+   * Testing
 * [数据接入](Part IV. Data Access/README.md)
    * Transaction Management
        * Introduction to Spring Framework transaction management
