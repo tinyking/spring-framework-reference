@@ -547,7 +547,7 @@
        * Implementing DAOs based on plain JPA
        * Transaction Management
        * JpaDialect
-   * Marshalling XML using O/X Mappers
+   * [Marshalling XML using O/X Mappers](Part IV. Data Access/16. Marshalling XML using O/X Mappers.md)
        * Introduction
            * Ease of configuration
            * Consistent Interfaces
