@@ -593,6 +593,7 @@
        * [介绍](Part VI. Integration/22.1 Introduction.md)
    * 企业级JavaBeans(EJB)集成
    * JMS (Java消息服务)
+   * JMX
    * [使用RMI暴露Services](Part VI. Integration/22.2 Exposing services using RMI.md)
        * [使用RmiServiceExporter导出Services](Part VI. Integration/Exporting the service using the RmiServiceExporter.md)
    * [缓存抽象](Part VI. Integration/30. Cache Abstraction.md)
@@ -604,6 +605,5 @@
        * [介绍](Part VI. Integration/27.1 Introduction.md)
        * [使用方法](Part VI. Integration/27.2 Usage.md)
        * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
-   * JMX
 * 第七部分 附加
 
