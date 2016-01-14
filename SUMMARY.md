@@ -55,7 +55,7 @@
                * [Bean别名](Part III. Core Technologies/Aliasing a bean outside the bean definition.md)
            * [Beans实例化](Part III. Core Technologies/Instantiating beans.md)
                * [构造函数实例化](Part III. Core Technologies/Instantiation with a constructor.md)
-               * 静态工厂方法实例化
+               * [静态工厂方法实例化](Part III. Core Technologies/Instantiation with a static factory method.md)
                * 静态工厂实例方法实例化
        * [依赖](Part III. Core Technologies/5.4 Dependencies.md)
            * 反转依赖
