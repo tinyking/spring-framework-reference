@@ -29,7 +29,7 @@
    * [Spring框架4.0增强及新特性](Part II. What’s New in Spring Framework 4.x/3. New Features and Enhancements in Spring Framework 4.0.md)
        * [改善入门体验](Part II. What’s New in Spring Framework 4.x/3.1 Improved Getting Started Experience.md)
        * [移除弃用的包和方法](Part II. What’s New in Spring Framework 4.x/3.2 Removed Deprecated Packages and Methods.md)
-       * [Java 8 (Java 6、7)](Part II. What’s New in Spring Framework 4.x/3.3 Java 8 (as well as 6 and 7)
+       * [Java 8 (Java 6、7)](Part II. What’s New in Spring Framework 4.x/3.3 Java 8.md)
        * [Java EE 6、7](Part II. What’s New in Spring Framework 4.x/3.4 Java EE 6 and 7.md)
        * [Groovy Bean定义DSL](Part II. What’s New in Spring Framework 4.x/3.5 Groovy Bean Definition DSL.md)
        * [核心容器改进](Part II. What’s New in Spring Framework 4.x/3.6 Core Container Improvements.md)
