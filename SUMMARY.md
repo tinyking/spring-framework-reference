@@ -81,7 +81,7 @@
            * [方法注入](Part III. Core Technologies/Method injection.md)
                * Lookup method injection
                * Arbitrary method replacement
-       * Bean scopes
+       * Bean的作用
            * The singleton scope
            * The prototype scope
            * Singleton beans with prototype-bean dependencies
