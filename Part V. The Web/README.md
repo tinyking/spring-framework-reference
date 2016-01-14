@@ -14,6 +14,6 @@ WebSocket Support (including Section 21.4, “STOMP Over WebSocket Messaging Arc
 
 • [第17章 Web MVC 框架](17. Web MVC framework.md)
 • [第18章 视图技术](18. View technologies.md)
-• Chapter 19, Integrating with other web frameworks
+• [与其他Web框架交互](19. Integrating with other web frameworks.md)
 • Chapter 20, Portlet MVC Framework
 • Chapter 21, WebSocket Support
