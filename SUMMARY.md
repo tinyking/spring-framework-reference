@@ -95,7 +95,7 @@
            * Custom scopes
                * Creating a custom scope
                * Using a custom scope
-       * [Customizing the nature of a bean](Part III. Core Technologies/Customizing the nature of a bean.md)
+       * [定制Bean的特性](Part III. Core Technologies/Customizing the nature of a bean.md)
            * Lifecycle callbacks
                * Initialization callbacks
                * Destruction callbacks
