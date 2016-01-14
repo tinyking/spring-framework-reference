@@ -1,7 +1,6 @@
 # Summary
 
 * [简介](README.md)
-   * 第七部分 附加
 * [第一部分 Spring框架概述](Part I. Overview of Spring Framework/README.md)
    * [入门](Part I. Overview of Spring Framework/1. Getting Started With Spring.md)
    * [介绍](Part I. Overview of Spring Framework/2. Introduction to Spring Framework.md)
