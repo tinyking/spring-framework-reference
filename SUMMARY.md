@@ -75,7 +75,7 @@
                * Compound property names
            * [使用depends-on](Part III. Core Technologies/Using depends-on.md)
            * 懒惰初始化 beans
-           * Autowiring collaborators
+           * [Autowiring collaborators](Part III. Core Technologies/Autowiring collaborators.md)
                * Limitations and disadvantages of autowiring
                * Excluding a bean from autowiring
            * Method injection
