@@ -58,7 +58,7 @@
                * [静态工厂方法实例化](Part III. Core Technologies/Instantiation with a static factory method.md)
                * [静态工厂实例方法实例化](Part III. Core Technologies/Instantiation using an instance factory method.md)
        * [依赖](Part III. Core Technologies/5.4 Dependencies.md)
-           * 反转依赖
+           * [反转依赖](Part III. Core Technologies/Dependency injection.md)
                * 构造函数反转依赖
                * Setter反转依赖
                * Dependency resolution process
