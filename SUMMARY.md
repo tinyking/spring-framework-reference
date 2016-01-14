@@ -60,6 +60,7 @@
        * [依赖](Part III. Core Technologies/5.4 Dependencies.md)
            * [反转依赖](Part III. Core Technologies/Dependency injection.md)
                * [基于构造方法依赖注入](Part III. Core Technologies/Constructor-based dependency injection.md)
+                   * 构造方法参数方案
                * Setter反转依赖
                * Dependency resolution process
                * [DI实例]Examples of dependency injection
