@@ -49,7 +49,7 @@
            * [配置元数据](Part III. Core Technologies/Configuration metadata.md)
            * [容器实例化](Part III. Core Technologies/Instantiating a container.md)
                * 基于XML的配置
-           * 容器使用
+           * [容器使用](Part III. Core Technologies/Using the container.md)
        * [Bean概览](Part III. Core Technologies/5.3 Bean Overview.md)
            * 命名beans
                * Bean别名
