@@ -604,5 +604,6 @@
        * [介绍](Part VI. Integration/27.1 Introduction.md)
        * [使用方法](Part VI. Integration/27.2 Usage.md)
        * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
+   * JMX
 * 第七部分 附加
 
