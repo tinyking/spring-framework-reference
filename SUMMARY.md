@@ -602,6 +602,7 @@
        * [使用方法](Part VI. Integration/27.2 Usage.md)
        * [使用JavaMail MimeMessageHelper](Part VI. Integration/27.3 Using the JavaMail MimeMessageHelper.md)
    * [任务执行、调度](Part VI. Integration/28. Task Execution and Scheduling.md)
+       * 介绍
    * 动态语言支持
    * [缓存抽象](Part VI. Integration/30. Cache Abstraction.md)
        * [介绍](Part VI. Integration/30.1 Introduction.md)
